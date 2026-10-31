@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="Segoe UI, Arial, sans-serif">
+<defs>
+  <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1B2430"/></marker>
+  <marker id="b" markerWidth="12" markerHeight="12" refX="2" refY="6" orient="auto"><path d="M12,0 L0,6 L12,12 z" fill="#1B2430"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FAF7F2"/>
+<text x="40" y="52" font-size="30" font-weight="700" fill="#1B2430">FoodHub – system architecture</text>
+<text x="40" y="84" font-size="18" fill="#5B6472">Three tiers: browser (Next.js React pages) → Next.js API layer (Route Handlers) → MySQL + MongoDB</text>
+
+
+  <rect x="40" y="120" width="1520" height="170" rx="18" fill="#FFFFFF" stroke="#1B2430" stroke-width="2.5"/>
+  <text x="64" y="160" font-size="24" font-weight="700" fill="#1B2430">Browser – Next.js pages (React client components)</text>
+  <text x="64" y="198" font-size="18" fill="#3D4450">Login / sign-up · Customer: search, menu, cart, checkout, live tracking, history, addresses</text><text x="64" y="228" font-size="18" fill="#3D4450">Restaurant: sales dashboard, live order board, menu add/edit/delete, stock · Partner: deliveries, GPS</text><text x="64" y="258" font-size="18" fill="#3D4450">Admin: control room, partner assignment, approvals, coupons, Query lab (SQL + MongoDB results)</text>
+
+
+  <rect x="40" y="380" width="1520" height="200" rx="18" fill="#1B2430" stroke="#1B2430" stroke-width="2.5"/>
+  <text x="64" y="420" font-size="24" font-weight="700" fill="#F29E7C">Next.js server – API layer (app/api/**/route.js)</text>
+  <text x="64" y="458" font-size="18" fill="#3D4450"><tspan fill="#D5DAE1">Authentication: bcrypt password check · signed JWT in an httpOnly cookie · role check on every route</tspan></text><text x="64" y="488" font-size="18" fill="#3D4450"><tspan fill="#D5DAE1">Validation + row-level access (an owner sees only their restaurant's orders) · friendly database errors</tspan></text><text x="64" y="518" font-size="18" fill="#3D4450"><tspan fill="#D5DAE1">lib/db.js: mysql2 connection pool + MongoDB client · settings only from environment variables (.env.local)</tspan></text><text x="64" y="548" font-size="18" fill="#3D4450"><tspan fill="#D5DAE1">Every SQL statement uses ? placeholders (no SQL injection) · MongoDB written after the MySQL COMMIT</tspan></text>
+
+
+  <rect x="40" y="670" width="900" height="200" rx="18" fill="#FFFFFF" stroke="#2457A6" stroke-width="2.5"/>
+  <text x="64" y="710" font-size="24" font-weight="700" fill="#2457A6">MySQL 8 – primary, transactional (source of truth)</text>
+  <text x="64" y="748" font-size="18" fill="#3D4450">15 tables in BCNF · PK, FK, UNIQUE, CHECK, generated column</text><text x="64" y="778" font-size="18" fill="#3D4450">Views (5) · stored functions (4) · procedures sp_place_order, sp_assign_partner</text><text x="64" y="808" font-size="18" fill="#3D4450">Triggers (6): status rules, refunds, delivery sync, review rules, rating</text><text x="64" y="838" font-size="18" fill="#3D4450">Indexes + FULLTEXT (restaurant, menu) · transactions with row locks</text>
+
+
+  <rect x="980" y="670" width="580" height="200" rx="18" fill="#FFFFFF" stroke="#1F8A4C" stroke-width="2.5"/>
+  <text x="1004" y="710" font-size="24" font-weight="700" fill="#1F8A4C">MongoDB 8 – real-time data</text>
+  <text x="1004" y="748" font-size="18" fill="#3D4450">partner_locations (2dsphere index, $geoNear)</text><text x="1004" y="778" font-size="18" fill="#3D4450">order_tracking_events (timeline)</text><text x="1004" y="808" font-size="18" fill="#3D4450">notifications · activity_logs</text><text x="1004" y="838" font-size="18" fill="#3D4450">aggregation pipelines for analytics</text>
+
+
+  <line x1="800" y1="290" x2="800" y2="380" stroke="#1B2430" stroke-width="3" marker-end="url(#a)" marker-start="url(#b)"/>
+  <rect x="814" y="323" width="214.39999999999998" height="30" rx="6" fill="#FFFFFF" stroke="#E7E0D4"/>
+  <text x="820" y="345" font-size="16" font-weight="600" fill="#B93D18">fetch() JSON over HTTP</text>
+
+  <line x1="490" y1="580" x2="490" y2="670" stroke="#1B2430" stroke-width="3" marker-end="url(#a)" marker-start="url(#b)"/>
+  <rect x="504" y="613" width="425.99999999999994" height="30" rx="6" fill="#FFFFFF" stroke="#E7E0D4"/>
+  <text x="510" y="635" font-size="16" font-weight="600" fill="#B93D18">SQL: SELECT / INSERT / UPDATE / DELETE / CALL</text>
+
+  <line x1="1270" y1="580" x2="1270" y2="670" stroke="#1B2430" stroke-width="3" marker-end="url(#a)" marker-start="url(#b)"/>
+  <rect x="1284" y="613" width="306.4" height="30" rx="6" fill="#FFFFFF" stroke="#E7E0D4"/>
+  <text x="1290" y="635" font-size="16" font-weight="600" fill="#B93D18">MongoDB: insert, find, aggregate</text>
+</svg>

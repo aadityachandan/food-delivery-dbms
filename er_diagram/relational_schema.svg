@@ -1,0 +1,319 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1756 1830" width="1756" height="1830" font-family="Arial, Helvetica, sans-serif">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="280" y="36" font-size="22" font-weight="700" fill="#1B2430">Relational Schema – Smart Multi-Vendor Food Delivery &amp; Logistics Management System</text>
+<text x="280" y="58" font-size="14" fill="#555">Primary keys are underlined (shaded). Each arrow goes from a foreign key to the primary key it references.</text>
+<polyline points="432.5,452 432.5,476 184,476 184,364 333.5,364 333.5,359" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="333.5,351 328,361 339,361" fill="#1B2430"/>
+<polyline points="697.5,452 697.5,486 148,486 148,252 317.5,252 317.5,247" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="317.5,239 312,249 323,249" fill="#1B2430"/>
+<polyline points="444.5,676 444.5,730 196,730 196,588 321.5,588 321.5,583" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="321.5,575 316,585 327,585" fill="#1B2430"/>
+<polyline points="803.5,676 803.5,740 88,740 88,262 317.5,262 317.5,247" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="317.5,239 312,249 323,249" fill="#1B2430"/>
+<polyline points="1563.5,676 1563.5,750 64,750 64,140 321.5,140 321.5,135" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="321.5,127 316,137 327,137" fill="#1B2430"/>
+<polyline points="416.5,838 416.5,862 208,862 208,690 341.5,690 341.5,685" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="341.5,677 336,687 347,687" fill="#1B2430"/>
+<polyline points="341.5,950 341.5,964 160,964 160,700 341.5,700 341.5,685" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="341.5,677 336,687 347,687" fill="#1B2430"/>
+<polyline points="1387.5,1052 1387.5,1076 136,1076 136,710 341.5,710 341.5,685" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="341.5,677 336,687 347,687" fill="#1B2430"/>
+<polyline points="412.5,1164 412.5,1218 52,1218 52,466 329.5,466 329.5,461" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="329.5,453 324,463 335,463" fill="#1B2430"/>
+<polyline points="523.5,1164 523.5,1228 100,1228 100,720 341.5,720 341.5,685" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="341.5,677 336,687 347,687" fill="#1B2430"/>
+<polyline points="630.5,1164 630.5,1238 220,1238 220,1066 325.5,1066 325.5,1061" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="325.5,1053 320,1063 331,1063" fill="#1B2430"/>
+<polyline points="321.5,1326 321.5,1340 232,1340 232,1178 321.5,1178 321.5,1173" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="321.5,1165 316,1175 327,1175" fill="#1B2430"/>
+<polyline points="400.5,1326 400.5,1350 112,1350 112,852 317.5,852 317.5,847" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="317.5,839 312,849 323,849" fill="#1B2430"/>
+<polyline points="420.5,1438 420.5,1452 172,1452 172,1188 321.5,1188 321.5,1173" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="321.5,1165 316,1175 327,1175" fill="#1B2430"/>
+<polyline points="1440.5,1540 1440.5,1564 40,1564 40,150 321.5,150 321.5,135" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="321.5,127 316,137 327,137" fill="#1B2430"/>
+<polyline points="428.5,1652 428.5,1666 124,1666 124,1198 321.5,1198 321.5,1173" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="321.5,1165 316,1175 327,1175" fill="#1B2430"/>
+<polyline points="519.5,1652 519.5,1676 244,1676 244,1554 329.5,1554 329.5,1549" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="329.5,1541 324,1551 335,1551" fill="#1B2430"/>
+<polyline points="412.5,1764 412.5,1778 76,1778 76,1208 321.5,1208 321.5,1173" fill="none" stroke="#1B2430" stroke-width="1.6"/>
+<polygon points="321.5,1165 316,1175 327,1175" fill="#1B2430"/>
+<text x="280" y="87" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">ADMIN</text>
+<rect x="280" y="94" width="83" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="321.5" y="115" text-anchor="middle" font-size="15" fill="#111">admin_id</text>
+<line x1="288" y1="119" x2="355" y2="119" stroke="#111" stroke-width="1.3"/>
+<rect x="363" y="94" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="408.5" y="115" text-anchor="middle" font-size="15" fill="#111">full_name</text>
+<rect x="454" y="94" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="483.5" y="115" text-anchor="middle" font-size="15" fill="#111">email</text>
+<rect x="513" y="94" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="574.5" y="115" text-anchor="middle" font-size="15" fill="#111">password_hash</text>
+<rect x="636" y="94" width="50" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="661" y="115" text-anchor="middle" font-size="15" fill="#111">role</text>
+<rect x="686" y="94" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="735.5" y="115" text-anchor="middle" font-size="15" fill="#111">created_at</text>
+<text x="280" y="199" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">PINCODE</text>
+<rect x="280" y="206" width="75" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="317.5" y="227" text-anchor="middle" font-size="15" fill="#111">pincode</text>
+<line x1="288" y1="231" x2="347" y2="231" stroke="#111" stroke-width="1.3"/>
+<rect x="355" y="206" width="50" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="380" y="227" text-anchor="middle" font-size="15" fill="#111">city</text>
+<rect x="405" y="206" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="434.5" y="227" text-anchor="middle" font-size="15" fill="#111">state</text>
+<text x="280" y="311" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">CUSTOMER</text>
+<rect x="280" y="318" width="107" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="333.5" y="339" text-anchor="middle" font-size="15" fill="#111">customer_id</text>
+<line x1="288" y1="343" x2="379" y2="343" stroke="#111" stroke-width="1.3"/>
+<rect x="387" y="318" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="432.5" y="339" text-anchor="middle" font-size="15" fill="#111">full_name</text>
+<rect x="478" y="318" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="507.5" y="339" text-anchor="middle" font-size="15" fill="#111">email</text>
+<rect x="537" y="318" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="566.5" y="339" text-anchor="middle" font-size="15" fill="#111">phone</text>
+<rect x="596" y="318" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="657.5" y="339" text-anchor="middle" font-size="15" fill="#111">password_hash</text>
+<rect x="719" y="318" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="768.5" y="339" text-anchor="middle" font-size="15" fill="#111">created_at</text>
+<rect x="818" y="318" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="851.5" y="339" text-anchor="middle" font-size="15" fill="#111">status</text>
+<text x="280" y="413" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">ADDRESS</text>
+<rect x="280" y="420" width="99" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="329.5" y="441" text-anchor="middle" font-size="15" fill="#111">address_id</text>
+<line x1="288" y1="445" x2="371" y2="445" stroke="#111" stroke-width="1.3"/>
+<rect x="379" y="420" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="432.5" y="441" text-anchor="middle" font-size="15" fill="#111">customer_id</text>
+<rect x="486" y="420" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="515.5" y="441" text-anchor="middle" font-size="15" fill="#111">label</text>
+<rect x="545" y="420" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="602.5" y="441" text-anchor="middle" font-size="15" fill="#111">address_line</text>
+<rect x="660" y="420" width="75" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="697.5" y="441" text-anchor="middle" font-size="15" fill="#111">pincode</text>
+<rect x="735" y="420" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="776.5" y="441" text-anchor="middle" font-size="15" fill="#111">latitude</text>
+<rect x="818" y="420" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="863.5" y="441" text-anchor="middle" font-size="15" fill="#111">longitude</text>
+<rect x="909" y="420" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="958.5" y="441" text-anchor="middle" font-size="15" fill="#111">is_default</text>
+<text x="280" y="535" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">RESTAURANT_OWNER</text>
+<rect x="280" y="542" width="83" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="321.5" y="563" text-anchor="middle" font-size="15" fill="#111">owner_id</text>
+<line x1="288" y1="567" x2="355" y2="567" stroke="#111" stroke-width="1.3"/>
+<rect x="363" y="542" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="408.5" y="563" text-anchor="middle" font-size="15" fill="#111">full_name</text>
+<rect x="454" y="542" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="483.5" y="563" text-anchor="middle" font-size="15" fill="#111">email</text>
+<rect x="513" y="542" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="542.5" y="563" text-anchor="middle" font-size="15" fill="#111">phone</text>
+<rect x="572" y="542" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="633.5" y="563" text-anchor="middle" font-size="15" fill="#111">password_hash</text>
+<rect x="695" y="542" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="728.5" y="563" text-anchor="middle" font-size="15" fill="#111">status</text>
+<text x="280" y="637" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">RESTAURANT</text>
+<rect x="280" y="644" width="123" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="341.5" y="665" text-anchor="middle" font-size="15" fill="#111">restaurant_id</text>
+<line x1="288" y1="669" x2="395" y2="669" stroke="#111" stroke-width="1.3"/>
+<rect x="403" y="644" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="444.5" y="665" text-anchor="middle" font-size="15" fill="#111">owner_id</text>
+<rect x="486" y="644" width="50" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="511" y="665" text-anchor="middle" font-size="15" fill="#111">name</text>
+<rect x="536" y="644" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="593.5" y="665" text-anchor="middle" font-size="15" fill="#111">cuisine_type</text>
+<rect x="651" y="644" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="708.5" y="665" text-anchor="middle" font-size="15" fill="#111">address_line</text>
+<rect x="766" y="644" width="75" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="803.5" y="665" text-anchor="middle" font-size="15" fill="#111">pincode</text>
+<rect x="841" y="644" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="882.5" y="665" text-anchor="middle" font-size="15" fill="#111">latitude</text>
+<rect x="924" y="644" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="969.5" y="665" text-anchor="middle" font-size="15" fill="#111">longitude</text>
+<rect x="1015" y="644" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1072.5" y="665" text-anchor="middle" font-size="15" fill="#111">opening_time</text>
+<rect x="1130" y="644" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1187.5" y="665" text-anchor="middle" font-size="15" fill="#111">closing_time</text>
+<rect x="1245" y="644" width="131" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1310.5" y="665" text-anchor="middle" font-size="15" fill="#111">commission_pct</text>
+<rect x="1376" y="644" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1409.5" y="665" text-anchor="middle" font-size="15" fill="#111">rating</text>
+<rect x="1443" y="644" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1476.5" y="665" text-anchor="middle" font-size="15" fill="#111">status</text>
+<rect x="1510" y="644" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1563.5" y="665" text-anchor="middle" font-size="15" fill="#111">approved_by</text>
+<rect x="1617" y="644" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1666.5" y="665" text-anchor="middle" font-size="15" fill="#111">created_at</text>
+<text x="280" y="799" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">MENU_ITEM</text>
+<rect x="280" y="806" width="75" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="317.5" y="827" text-anchor="middle" font-size="15" fill="#111">item_id</text>
+<line x1="288" y1="831" x2="347" y2="831" stroke="#111" stroke-width="1.3"/>
+<rect x="355" y="806" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="416.5" y="827" text-anchor="middle" font-size="15" fill="#111">restaurant_id</text>
+<rect x="478" y="806" width="50" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="503" y="827" text-anchor="middle" font-size="15" fill="#111">name</text>
+<rect x="528" y="806" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="581.5" y="827" text-anchor="middle" font-size="15" fill="#111">description</text>
+<rect x="635" y="806" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="676.5" y="827" text-anchor="middle" font-size="15" fill="#111">category</text>
+<rect x="718" y="806" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="747.5" y="827" text-anchor="middle" font-size="15" fill="#111">price</text>
+<rect x="777" y="806" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="810.5" y="827" text-anchor="middle" font-size="15" fill="#111">is_veg</text>
+<rect x="844" y="806" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="901.5" y="827" text-anchor="middle" font-size="15" fill="#111">is_available</text>
+<rect x="959" y="806" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1004.5" y="827" text-anchor="middle" font-size="15" fill="#111">image_url</text>
+<text x="280" y="911" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">INVENTORY</text>
+<rect x="280" y="918" width="123" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="341.5" y="939" text-anchor="middle" font-size="15" fill="#111">restaurant_id</text>
+<line x1="288" y1="943" x2="395" y2="943" stroke="#111" stroke-width="1.3"/>
+<rect x="403" y="918" width="140" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="473" y="939" text-anchor="middle" font-size="15" fill="#111">ingredient_name</text>
+<line x1="411" y1="943" x2="535" y2="943" stroke="#111" stroke-width="1.3"/>
+<rect x="543" y="918" width="50" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="568" y="939" text-anchor="middle" font-size="15" fill="#111">unit</text>
+<rect x="593" y="918" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="634.5" y="939" text-anchor="middle" font-size="15" fill="#111">quantity</text>
+<rect x="676" y="918" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="737.5" y="939" text-anchor="middle" font-size="15" fill="#111">reorder_level</text>
+<rect x="799" y="918" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="856.5" y="939" text-anchor="middle" font-size="15" fill="#111">last_updated</text>
+<text x="280" y="1013" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">COUPON</text>
+<rect x="280" y="1020" width="91" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="325.5" y="1041" text-anchor="middle" font-size="15" fill="#111">coupon_id</text>
+<line x1="288" y1="1045" x2="363" y2="1045" stroke="#111" stroke-width="1.3"/>
+<rect x="371" y="1020" width="50" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="396" y="1041" text-anchor="middle" font-size="15" fill="#111">code</text>
+<rect x="421" y="1020" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="474.5" y="1041" text-anchor="middle" font-size="15" fill="#111">description</text>
+<rect x="528" y="1020" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="589.5" y="1041" text-anchor="middle" font-size="15" fill="#111">discount_type</text>
+<rect x="651" y="1020" width="131" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="716.5" y="1041" text-anchor="middle" font-size="15" fill="#111">discount_value</text>
+<rect x="782" y="1020" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="839.5" y="1041" text-anchor="middle" font-size="15" fill="#111">max_discount</text>
+<rect x="897" y="1020" width="140" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="967" y="1041" text-anchor="middle" font-size="15" fill="#111">min_order_value</text>
+<rect x="1037" y="1020" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1086.5" y="1041" text-anchor="middle" font-size="15" fill="#111">valid_from</text>
+<rect x="1136" y="1020" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1177.5" y="1041" text-anchor="middle" font-size="15" fill="#111">valid_to</text>
+<rect x="1219" y="1020" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1272.5" y="1041" text-anchor="middle" font-size="15" fill="#111">usage_limit</text>
+<rect x="1326" y="1020" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1387.5" y="1041" text-anchor="middle" font-size="15" fill="#111">restaurant_id</text>
+<rect x="1449" y="1020" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1482.5" y="1041" text-anchor="middle" font-size="15" fill="#111">status</text>
+<text x="280" y="1125" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">ORDERS</text>
+<rect x="280" y="1132" width="83" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="321.5" y="1153" text-anchor="middle" font-size="15" fill="#111">order_id</text>
+<line x1="288" y1="1157" x2="355" y2="1157" stroke="#111" stroke-width="1.3"/>
+<rect x="363" y="1132" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="412.5" y="1153" text-anchor="middle" font-size="15" fill="#111">address_id</text>
+<rect x="462" y="1132" width="123" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="523.5" y="1153" text-anchor="middle" font-size="15" fill="#111">restaurant_id</text>
+<rect x="585" y="1132" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="630.5" y="1153" text-anchor="middle" font-size="15" fill="#111">coupon_id</text>
+<rect x="676" y="1132" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="725.5" y="1153" text-anchor="middle" font-size="15" fill="#111">order_time</text>
+<rect x="775" y="1132" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="816.5" y="1153" text-anchor="middle" font-size="15" fill="#111">subtotal</text>
+<rect x="858" y="1132" width="140" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="928" y="1153" text-anchor="middle" font-size="15" fill="#111">discount_amount</text>
+<rect x="998" y="1132" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1055.5" y="1153" text-anchor="middle" font-size="15" fill="#111">delivery_fee</text>
+<rect x="1113" y="1132" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1162.5" y="1153" text-anchor="middle" font-size="15" fill="#111">tax_amount</text>
+<rect x="1212" y="1132" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1269.5" y="1153" text-anchor="middle" font-size="15" fill="#111">total_amount</text>
+<rect x="1327" y="1132" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1384.5" y="1153" text-anchor="middle" font-size="15" fill="#111">order_status</text>
+<rect x="1442" y="1132" width="180" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1532" y="1153" text-anchor="middle" font-size="15" fill="#111">special_instructions</text>
+<text x="280" y="1287" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">ORDER_ITEM</text>
+<rect x="280" y="1294" width="83" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="321.5" y="1315" text-anchor="middle" font-size="15" fill="#111">order_id</text>
+<line x1="288" y1="1319" x2="355" y2="1319" stroke="#111" stroke-width="1.3"/>
+<rect x="363" y="1294" width="75" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="400.5" y="1315" text-anchor="middle" font-size="15" fill="#111">item_id</text>
+<line x1="371" y1="1319" x2="430" y2="1319" stroke="#111" stroke-width="1.3"/>
+<rect x="438" y="1294" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="479.5" y="1315" text-anchor="middle" font-size="15" fill="#111">quantity</text>
+<rect x="521" y="1294" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="570.5" y="1315" text-anchor="middle" font-size="15" fill="#111">unit_price</text>
+<text x="280" y="1399" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">PAYMENT</text>
+<rect x="280" y="1406" width="99" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="329.5" y="1427" text-anchor="middle" font-size="15" fill="#111">payment_id</text>
+<line x1="288" y1="1431" x2="371" y2="1431" stroke="#111" stroke-width="1.3"/>
+<rect x="379" y="1406" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="420.5" y="1427" text-anchor="middle" font-size="15" fill="#111">order_id</text>
+<rect x="462" y="1406" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="495.5" y="1427" text-anchor="middle" font-size="15" fill="#111">method</text>
+<rect x="529" y="1406" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="562.5" y="1427" text-anchor="middle" font-size="15" fill="#111">amount</text>
+<rect x="596" y="1406" width="140" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="666" y="1427" text-anchor="middle" font-size="15" fill="#111">transaction_ref</text>
+<rect x="736" y="1406" width="131" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="801.5" y="1427" text-anchor="middle" font-size="15" fill="#111">payment_status</text>
+<rect x="867" y="1406" width="75" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="904.5" y="1427" text-anchor="middle" font-size="15" fill="#111">paid_at</text>
+<text x="280" y="1501" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">DELIVERY_PARTNER</text>
+<rect x="280" y="1508" width="99" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="329.5" y="1529" text-anchor="middle" font-size="15" fill="#111">partner_id</text>
+<line x1="288" y1="1533" x2="371" y2="1533" stroke="#111" stroke-width="1.3"/>
+<rect x="379" y="1508" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="424.5" y="1529" text-anchor="middle" font-size="15" fill="#111">full_name</text>
+<rect x="470" y="1508" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="499.5" y="1529" text-anchor="middle" font-size="15" fill="#111">phone</text>
+<rect x="529" y="1508" width="59" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="558.5" y="1529" text-anchor="middle" font-size="15" fill="#111">email</text>
+<rect x="588" y="1508" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="645.5" y="1529" text-anchor="middle" font-size="15" fill="#111">vehicle_type</text>
+<rect x="703" y="1508" width="131" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="768.5" y="1529" text-anchor="middle" font-size="15" fill="#111">vehicle_number</text>
+<rect x="834" y="1508" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="883.5" y="1529" text-anchor="middle" font-size="15" fill="#111">license_no</text>
+<rect x="933" y="1508" width="50" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="958" y="1529" text-anchor="middle" font-size="15" fill="#111">city</text>
+<rect x="983" y="1508" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1040.5" y="1529" text-anchor="middle" font-size="15" fill="#111">availability</text>
+<rect x="1098" y="1508" width="67" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1131.5" y="1529" text-anchor="middle" font-size="15" fill="#111">rating</text>
+<rect x="1165" y="1508" width="91" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1210.5" y="1529" text-anchor="middle" font-size="15" fill="#111">joined_at</text>
+<rect x="1256" y="1508" width="131" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1321.5" y="1529" text-anchor="middle" font-size="15" fill="#111">account_status</text>
+<rect x="1387" y="1508" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1440.5" y="1529" text-anchor="middle" font-size="15" fill="#111">verified_by</text>
+<text x="280" y="1613" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">DELIVERY</text>
+<rect x="280" y="1620" width="107" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="333.5" y="1641" text-anchor="middle" font-size="15" fill="#111">delivery_id</text>
+<line x1="288" y1="1645" x2="379" y2="1645" stroke="#111" stroke-width="1.3"/>
+<rect x="387" y="1620" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="428.5" y="1641" text-anchor="middle" font-size="15" fill="#111">order_id</text>
+<rect x="470" y="1620" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="519.5" y="1641" text-anchor="middle" font-size="15" fill="#111">partner_id</text>
+<rect x="569" y="1620" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="622.5" y="1641" text-anchor="middle" font-size="15" fill="#111">assigned_at</text>
+<rect x="676" y="1620" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="733.5" y="1641" text-anchor="middle" font-size="15" fill="#111">picked_up_at</text>
+<rect x="791" y="1620" width="115" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="848.5" y="1641" text-anchor="middle" font-size="15" fill="#111">delivered_at</text>
+<rect x="906" y="1620" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="959.5" y="1641" text-anchor="middle" font-size="15" fill="#111">distance_km</text>
+<rect x="1013" y="1620" width="140" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1083" y="1641" text-anchor="middle" font-size="15" fill="#111">delivery_status</text>
+<rect x="1153" y="1620" width="140" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="1223" y="1641" text-anchor="middle" font-size="15" fill="#111">partner_earning</text>
+<text x="280" y="1725" font-size="15" font-weight="700" fill="#1B2430" letter-spacing="0.5">REVIEW</text>
+<rect x="280" y="1732" width="91" height="32" fill="#FFF6D6" stroke="#1B2430" stroke-width="1.4"/>
+<text x="325.5" y="1753" text-anchor="middle" font-size="15" fill="#111">review_id</text>
+<line x1="288" y1="1757" x2="363" y2="1757" stroke="#111" stroke-width="1.3"/>
+<rect x="371" y="1732" width="83" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="412.5" y="1753" text-anchor="middle" font-size="15" fill="#111">order_id</text>
+<rect x="454" y="1732" width="107" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="507.5" y="1753" text-anchor="middle" font-size="15" fill="#111">food_rating</text>
+<rect x="561" y="1732" width="140" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="631" y="1753" text-anchor="middle" font-size="15" fill="#111">delivery_rating</text>
+<rect x="701" y="1732" width="75" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="738.5" y="1753" text-anchor="middle" font-size="15" fill="#111">comment</text>
+<rect x="776" y="1732" width="99" height="32" fill="#FFFFFF" stroke="#1B2430" stroke-width="1.4"/>
+<text x="825.5" y="1753" text-anchor="middle" font-size="15" fill="#111">created_at</text>
+</svg>
