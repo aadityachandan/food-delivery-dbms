@@ -1,0 +1,21 @@
+{
+  "name": "foodhub-web",
+  "version": "2.0.0",
+  "description": "Next.js web application for the Smart Multi-Vendor Food Delivery & Logistics Management System (MySQL + MongoDB)",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node tests/api.test.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.14",
+    "mongodb": "^7.8.0",
+    "mysql2": "^3.24.6",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
