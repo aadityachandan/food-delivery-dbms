@@ -100,5 +100,5 @@ The results are written to `web/tests/test-results.md`.
 
 | Member | USN | Responsibilities |
 |---|---|---|
-| [AADITYA SHANKAR CHANDAN] | [PES1UG24CS003] | [e.g. ER design, SQL schema, procedures/triggers, admin and restaurant screens] |
-| [ADITYA MALLIKARJUN PARANDE] | [PES1UG24CS028] | [e.g. MongoDB design, API layer, authentication, customer and partner screens, testing] |
+| AADITYA SHANKAR CHANDAN | PES1UG24CS003 | [e.g. ER design, SQL schema, procedures/triggers, admin and restaurant screens] |
+| ADITYA MALLIKARJUN PARANDE | PES1UG24CS028 | [e.g. MongoDB design, API layer, authentication, customer and partner screens, testing] |
